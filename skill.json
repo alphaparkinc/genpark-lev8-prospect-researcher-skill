@@ -1,0 +1,31 @@
+{
+  "name": "genpark-lev8-prospect-researcher-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Lev8-like AI prospecting tool to find, research, and score sales targets.",
+  "author": "genpark",
+  "category": "marketing",
+  "tags": [
+    "prospecting",
+    "sales",
+    "research",
+    "lev8"
+  ],
+  "inputs": {
+    "ideal_customer_profile": {
+      "type": "object"
+    },
+    "candidates": {
+      "type": "array"
+    }
+  },
+  "outputs": {
+    "ranked_prospects": {
+      "type": "array"
+    },
+    "top_prospect": {
+      "type": "object"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
